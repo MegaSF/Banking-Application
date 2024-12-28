@@ -1,0 +1,41 @@
+# Bank Account Application Documentation
+
+## Overview
+This Bank Account Application allows users to manage their bank accounts through various functionalities such as viewing funds, depositing, transferring, withdrawing, and saving/loading user information to a JSON file.
+
+## Functionalities
+
+### Viewing Funds
+Users can view the current balance of their bank account. This functionality provides a quick and easy way to check the available funds.
+
+### Depositing Funds
+Users can deposit money into their bank account. The deposited amount is added to the current balance, and the new balance is updated accordingly.
+
+### Transferring Funds
+Users can transfer money from their bank account to another account. 
+
+### Withdrawing Funds
+Users can withdraw money from their bank account. The withdrawn amount is subtracted from the current balance, and the new balance is updated accordingly.
+
+### Saving User Information
+User information, including account details and transaction history, can be saved to a JSON file. This allows users to persist their data and retrieve it later.
+
+### Loading User Information
+Users can load their information from a JSON file. This functionality allows users to restore their account details from a previously saved state.
+
+
+###############################
+
+# Original vs refactored
+
+## The Original code had a few issues. Namely hwo it handled user input, but it was also long and winding.
+This made troubleshooting it difficult do to the fact so much could go wrong and there was no funnel point for any of the
+code functions to go to. However it contains every line of code in resonable enough segments so checking isn't as disastrous, it also includes some
+accounts that are not needed
+
+## The refactored version fixes pretty much al of that, and should be used at any given point in time if possible
+
+##########################
+# Newest version
+-stores functions objects etc in separate file
+-utilizes dictionary actions
